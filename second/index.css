@@ -1,0 +1,77 @@
+body {
+    background-color: white;
+    margin: 0 ;
+}
+
+.box {
+    width: auto;
+    padding: 10px ;
+    border: 3px solid black ;
+    height: 220px ;
+    box-sizing: border-box ;
+
+} 
+
+.square1 {
+height: 130px ;
+width: 50px ;
+background-color: rgba(114, 50, 173, 0.808) ;
+display: inline-block ;
+margin:
+}
+
+.bigSquare {
+
+    height: 180px ;
+    width : 200px ;
+    background-color: aquamarine ;
+    display: inline-block ;
+    margin:0 15px ; 
+}
+
+.circle {
+
+    height: 180px;
+    width: 170px;
+    border-radius: 90%;
+    background-color: rgb(58, 137, 168);
+    display: inline-block;
+
+}
+.box2{
+    width: auto;
+    border: 5px dotted black;
+    padding: 50px;
+    box-sizing: border-box ;
+    margin-top: 5px; 
+
+}
+
+.longSquare {
+    width: 100%;
+    height: 120px;
+    background-color: rgb(241, 241, 104);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+.greetings{
+
+    width: 50%;
+  border: 1px solid #ccc;
+  background-color: white;
+  padding: 100px;
+  box-sizing: border-box ;
+  margin: 25px auto; 
+  -webkit-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.25);
+  -moz-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.25);
+  box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.25);
+
+}
+.greetings h1{
+
+    width: 100%;
+  text-align: center;
+  color: navy;
+  letter-spacing: 10px;
+}
